@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.total{
+   background-color: rgb(255, 255, 255); 
+    position: absolute;
+    top: 20%;
+    left: 27%;
+   width: 40%;
+  height: 70%;
+   border: 2px solid  dimgray;
+    border-radius: 23px; 
+}
+.form img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+     border-radius: 23px; 
+}
+.form h1{
+position: absolute;
+top: 10%;
+right: 1.5%;
+text-align: center;
+width: 99%;
+font-style: italic;
+font-size: 37px;
+color: rgb(229, 237, 245);
+}
+.total2{
+    position: absolute;
+    top: 34%;
+    left: 12%;
+ font-style: italic;
+ font-size: 26px;
+}
+.total3{
+    position: absolute;
+    top: 34%;
+    left: 39%;
+ font-style: italic;
+ font-size: 27px;
+ color: rgb(218, 5, 5);
+}
+.total3 .input-form input{
+    width: 100%;
+    padding: 9px;
+}
+.btn button{
+   border: none;
+    border-radius: 8px;
+    padding: 6px;
+    width: 70%;
+    background-color: rgb(204, 248, 147) ;
+    font-size: 20px;
+}
+.btn :hover{
+    background-color:rgb(243, 146, 146);
+}
+
+/*home*/
+.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+background-color: black;
+z-index: 999;
+}
+.nav{
+   background-image: url(./../3.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   border:20px rgb(230, 7, 7);
+   
+   
+}
+.nav img{
+    width: 100px;
+    border-radius: 20px;
+   
+}
+.logo{
+   position: absolute;
+   top: 2%;
+  left: 1%;
+ 
+}
+.logo img{
+    width: 65%;
+}
+  
+.topnav{
+ width: 30%;
+ color: #f7e8e8;
+ padding: 16px ;
+ font-size: 17px;
+position: absolute;
+left: 66%;
+
+}
+.topnav a {
+    padding: 15px;
+    color: beige;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline;
+
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black; 
+    border-radius: 5px;
+
+}
+.nav-items{
+color: beige;
+
+}
+.nav-items h1{
+    text-align: center;
+   padding: 80px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.nav-items p{
+    padding-left: 30px;
+    padding-top: 115px;
+    font-size: 26px;
+    font-weight: bold;
+ font-family:  'Kdam Thmor Pro', sans-serif;
+}
+.video{
+    margin-top: 23px;
+    padding-left: 40px;
+}
+.nav-items .video a{
+    font-size: 24px;
+    text-decoration: none;
+    color:goldenrod;
+   border: 1px solid darkgoldenrod;
+   background-color: aliceblue;
+   padding: 10px;
+   border-radius: 15px;
+}
+.nav-items .video a:hover{
+    background-color:darkorange;
+    color: aliceblue;
+}
+
+/* start point */
+.title{
+    width: 30%;
+ color: #f7e8e8;
+ padding: 16px ;
+ font-size: 17px;
+ margin-left: auto;
+}
+.about{
+    margin-top: 2%;
+    position: relative;
+}
+
+.title a{
+    padding: 15px;
+    color: rgb(88, 88, 84);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline;
+    background-color: rgb(230, 228, 114);
+    border-radius: 9px;
+}
+.title a:hover{
+    background-color: rgb(209, 209, 179);
+    color: black;
+    border-radius: 15px;
+}
+.items h1{
+    position: absolute;
+    top: 1.5%;
+    left: 2%;
+   color: rgb(230, 228, 114);
+   font-size: 39px;
+}
+.body img{
+    margin-top: 9%;
+    margin-left: 4%;
+}
+.text p{
+    position: absolute;
+    top: 48%;
+    left:53% ;
+    font-size: 31px;
+  
+}
+
+/* end point */
+/* start point */
+.gallery{
+    margin-top: 3%;
+    position: relative;
+}
+.bar{
+    width: 30%;
+    color: #ffffff;
+    padding: 16px ;
+    font-size: 17px;
+    margin-left: auto;
+}
+.bar a{
+    padding: 15px;
+    color: rgb(48, 48, 45);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline;
+    background-color: rgb(230, 228, 114);
+    border-radius: 9px;
+   
+}
+.bar a:hover {
+    background-color: #ddd;
+    color: black; 
+    border-radius: 5px;
+
+}
+.top h1{
+    font-size: 38px;
+    color: rgb(230, 228, 114);
+    position: absolute;
+    top: 1.5%;
+    left: 1.7%;
+   
+}
+.cont1{
+    position: relative;
+}
+.first{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.second{
+    margin-left:15% ;
+}
+.third{
+    margin-left: 29%;
+    position: relative;
+}
+.cont p{
+    position: absolute;
+    left: 45%;
+    top: 13%;
+    font-size: larger;
+    font: bold;
+    font-size: 23px;
+}
+.cont ul{
+    position: absolute;
+    top:19.5% ;
+    left: 46.3%;
+    font-size: 17px;
+}
+.cont2 p{
+    position: absolute;
+    top: 41%;
+    left: 62.7%;
+    font: bold ;
+    font: larger;
+    font-size: 23px;
+}
+.cont2 ul{
+    position: absolute;
+    top: 47%;
+    left:64.5% ;
+    font: bold;
+    font-size: 17px;
+}
+.cont3 p{
+    position: absolute;
+    top: 74%;
+    left: 73%;
+    font-size: 23px;
+}
+.cont3 ul{
+    position: absolute;
+    top: 80%;
+    left: 74%;
+    font: bold;
+    font-size: 19px;
+}
+/* end point */
+/* start point */
+.Contact{
+    margin-top: 3%;
+   position: relative;
+   
+}
+.topbar{
+    width: 30%;
+    color: #ffffff;
+    padding: 16px ;
+    font-size: 17px;
+    margin-left: auto;
+    position: relative;
+}
+.topbar a{
+    padding: 15px;
+    color: rgb(48, 48, 45);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline;
+    background-color: rgb(230, 228, 114);
+    border-radius: 9px;
+   
+}
+.topbar a:hover {
+    background-color: #ddd;
+    color: black; 
+    border-radius: 5px;
+
+}
+.logoo h1{
+    font-size: 36px;
+    color: rgb(230, 228, 114);
+    position: absolute;
+    top: 1.5%;
+    left: 1.7%;
+    
+}
+ .m{
+  margin-left: 3%;
+  margin-top: 5%;
+ }
+ .mail{
+    position: absolute;
+    top: 78%;
+    left: 9%;
+    font-size: 21px;
+ }
+ .p{
+ position: absolute;
+ top:60%;
+ left: 62%;
+ }
+ .phone{
+    position: absolute;
+    top: 72%;
+    left: 68%;
+    font-size:22px ;
+ }
+
+ .lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,.5);
+ }
+/* end point */
+/*the end home */
